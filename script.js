@@ -87,54 +87,85 @@ var specialCharacters = [
     'Y',
     'Z'
   ];
+//   function getPasswordOptions() {
+//     var passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
+//     var hasSpecialCharacters = confirm("Click OK to confirm including special characters.");
+//     var hasNumericCharacters = confirm("Click OK to confirm including numeric characters.");
+//     var hasLowerCasedCharacters = confirm("Click OK to confirm including lowercase characters.");
+//     var hasUpperCasedCharacters = confirm("Click OK to confirm including uppercase characters.");
+//     var passwordOptions;
+
+//     // validation for passwords's length 
+//     while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64) {
+//       alert("Please choose a number between 10 and 64");
+//       passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
+//     }
+
+//     // validate that at least one character type is selected
+//     while (!hasSpecialCharacters && !hasNumericCharacters && !hasLowerCasedCharacters && !hasUpperCasedCharacters) {
+//       alert("Please select at least one character type.");
+//       hasSpecialCharacters = confirm("Click OK to confirm including special characters.");
+//       hasNumericCharacters = confirm("Click OK to confirm including numeric characters.");
+//       hasLowerCasedCharacters = confirm("Click OK to confirm including lowercase characters.");
+//       hasUpperCasedCharacters = confirm("Click OK to confirm including uppercase characters.");
+//     }
+//     passwordOptions = {
+//       length: passwordLength,
+//       hasSpecialCharacters: hasSpecialCharacters,
+//       hasNumericCharacters: hasNumericCharacters,
+//       hasLowerCasedCharacters: hasLowerCasedCharacters,
+//       hasUpperCasedCharacters: hasUpperCasedCharacters
+//     };
+//     return passwordOptions;
+//   }
+
+//   // Function for getting a random element from an array
+//   function getRandom(arr) {
+//     var randIndex = Math.floor(Math.random() * arr.length);
+//     var randElement = arr[randIndex];
+//     return randElement;
+//   }
+      
+//   // Function to generate password with user input
+//   function generatePassword() {
+//     var options = getPasswordOptions();
+//     var possibleCharacters = [];
+//     var result = [];
+//     if (options.hasSpecialCharacters) {
+//         possibleCharacters = possibleCharacters.concat(specialCharacters);
+//     } 
+//     if (options.hasNumericCharacters) { 
+//         possibleCharacters = possibleCharacters.concat(numericCharacters);
+//     }
+//     if (options.hasLowerCasedCharacters) {
+//         possibleCharacters = possibleCharacters.concat(lowerCasedCharacters);
+//     }    
+//     if (options.hasUpperCasedCharacters) {
+//     possibleCharacters = possibleCharacters.concat(upperCasedCharacters);
+//     }
+//     for (var i = 0; i < options.length; i++) {
+//       var randomCharacter = getRandom(possibleCharacters);
+//       result.push(randomCharacter);
+//     }
+//     return result.join('');
+//   }
   
-  // Function to prompt user for password options
-  function getPasswordOptions() {
-    /* 
+// //  Get references to the #generate element 
+//   var generateBtn = document.querySelector('#generate');
+            
+//   // Write password to the #password input
+//   function writePassword() {
+//     // nothing needs to be changed inside of here
+//     var password = generatePassword();
+//     var passwordText = document.querySelector('#password');
+              
+//     passwordText.value = password;
+//   }
+              
+//   // Add event listener to generate button
+//   generateBtn.addEventListener('click', writePassword); // possible to switch out the function passed in - to test the functionality of the functions declared above
+        
+
+
+ 
   
-      The main purpose of this method is to gather user input to determine
-      what will be included in the generated password.
-  
-      Questions to ask users:
-      - How many characters would you like in the password? (Prompt or Confirm?)
-      - Are Uppercase letters allowed? (Prompt or Confirm?)
-      - Are Lowercase letters allowed? (Prompt or Confirm?)
-      - Are Numeric characters allowed? (Prompt or Confirm?)
-      - Are special characters allowed? (Prompt or Confirm?)
-  
-      Other Requirements:
-      - code should validate for each input: 
-          - Many times users will try to input incorrect input to try and break the app. What if a user inserts 
-            a letter instead of a number when we ask for password length? How can we check to see that the correct 
-            data type (a number) was inserted? 
-        - What can we use to display a message to the user in the browser if they input incorrect content ? 
-    */
-  
-    //  where should this function be called within the file?
-  }
-  
-  // Function for getting a random element from an array
-  function getRandom(arr) { // accepts an array as input
-    // how can we generate random numbers and use them to grab content from the arrays ?
-    //  where should this function be called within the file?
-  }
-  
-  // Function to generate password with user input
-  function generatePassword() {
-  
-  }
-  
-  // Get references to the #generate element
-  var generateBtn = document.querySelector('#generate');
-  
-  // Write password to the #password input
-  function writePassword() {
-    // nothing needs to be changed inside of here
-    var password = generatePassword();
-    var passwordText = document.querySelector('#password');
-  
-    passwordText.value = password;
-  }
-  
-  // Add event listener to generate button
-  generateBtn.addEventListener('click', writePassword); // possible to switch out the function passed in - to test the functionality of the functions declared above
