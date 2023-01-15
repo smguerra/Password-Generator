@@ -97,11 +97,11 @@ var specialCharacters = [
     var hasUpperCasedCharacters = confirm("Click OK to confirm including uppercase characters.");
     var passwordOptions;
 
-//     // validation for passwords's length 
-//     while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64) {
-//       alert("Please choose a number between 10 and 64");
-//       passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
-//     }
+    // validation for passwords's length 
+    while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64) {
+      alert("Please choose a number between 10 and 64");
+      passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
+    }
 
 //     // validate that at least one character type is selected
 //     while (!hasSpecialCharacters && !hasNumericCharacters && !hasLowerCasedCharacters && !hasUpperCasedCharacters) {
