@@ -152,20 +152,20 @@ var specialCharacters = [
     return result.join('');
   }
   
-//  Get references to the #generate element 
-  var generateBtn = document.querySelector('#generate');
+// //  Get references to the #generate element 
+//   var generateBtn = document.querySelector('#generate');
             
-  // Write password to the #password input
-  function writePassword() {
-    // nothing needs to be changed inside of here
-    var password = generatePassword();
-    var passwordText = document.querySelector('#password');
+//   // Write password to the #password input
+//   function writePassword() {
+//     // nothing needs to be changed inside of here
+//     var password = generatePassword();
+//     var passwordText = document.querySelector('#password');
               
-    passwordText.value = password;
-  }
+//     passwordText.value = password;
+//   }
               
-  // Add event listener to generate button
-  generateBtn.addEventListener('click', writePassword); // possible to switch out the function passed in - to test the functionality of the functions declared above
+//   // Add event listener to generate button
+//   generateBtn.addEventListener('click', writePassword); // possible to switch out the function passed in - to test the functionality of the functions declared above
         
 
 
