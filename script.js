@@ -87,13 +87,15 @@ var specialCharacters = [
     'Y',
     'Z'
   ];
-//   function getPasswordOptions() {
-//     var passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
-//     var hasSpecialCharacters = confirm("Click OK to confirm including special characters.");
-//     var hasNumericCharacters = confirm("Click OK to confirm including numeric characters.");
-//     var hasLowerCasedCharacters = confirm("Click OK to confirm including lowercase characters.");
-//     var hasUpperCasedCharacters = confirm("Click OK to confirm including uppercase characters.");
-//     var passwordOptions;
+
+  // Function to prompt user for password options
+  function getPasswordOptions() {
+    var passwordLength = parseInt(prompt("How many characters would you like your password to contain? (Please choose between 10 and 64 characters)"));
+    var hasSpecialCharacters = confirm("Click OK to confirm including special characters.");
+    var hasNumericCharacters = confirm("Click OK to confirm including numeric characters.");
+    var hasLowerCasedCharacters = confirm("Click OK to confirm including lowercase characters.");
+    var hasUpperCasedCharacters = confirm("Click OK to confirm including uppercase characters.");
+    var passwordOptions;
 
 //     // validation for passwords's length 
 //     while (isNaN(passwordLength) || passwordLength < 10 || passwordLength > 64) {
