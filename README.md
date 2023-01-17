@@ -1,4 +1,3 @@
-
 Password Generator
 
 # Password-Generator
@@ -11,8 +10,7 @@ Password Generator
 ## Description 
 
 
-This Password Generator project; showcases my skills and talents in the . it starts with information about me, and links to direct the user towards my work and my contact details. Users can see my work clicking on the Take Me There Button placed at the bottom left of the web applications cards, which will taken them to that deployed application. In this portfolio project I have made use of Bootstrap navigation bar, layout grid and Jumbotron components to create the structure of the web application and to make its layout responsive so it adapts to varios screens and devices.
-
+This Password Generator project showcases my skills and talents in the creation of an application that an employee will use to generate a random password and it will feature dynamically updated HTML and CSS powered by JavaScript code. It works by clicking the Generate Password button, then it will present a series of prompts and confirms for password criteria. The first prompt will request the desired number of characters to be contained in the password, then the user will select between a range of character types by clicking the "OK" or "Cancel buttons". Then, the code will validate for each input and at least one character type should be selected by the user; once prompts are answered then the password is generated and written to the page. 
 
 
 
@@ -25,15 +23,14 @@ This Password Generator project; showcases my skills and talents in the . it sta
 
 ## Tech Stack
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flex-box
-- Bootstrap 4.3
+- HTML
+- CSS
+- JavaScript
 
 
 ## Links
 
-- Project URL:  https://github.com/smguerra/Bootstrap-Portfolio
+- Project URL:  https://github.com/smguerra/Password-Generator
 - Live Site URL:  https://smguerra.github.io/Bootstrap-Portfolio/
 
 
