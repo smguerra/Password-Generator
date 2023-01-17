@@ -1,5 +1,3 @@
-Password Generator
-
 # Password-Generator
 
 
@@ -31,7 +29,7 @@ This Password Generator project showcases my skills and talents in the creation 
 ## Links
 
 - Project URL:  https://github.com/smguerra/Password-Generator
-- Live Site URL:  https://smguerra.github.io/Bootstrap-Portfolio/
+- Live Site URL:  https://smguerra.github.io/Password-Generator/
 
 
 ## Author
